@@ -29,7 +29,7 @@ export const useDataApi = <T>(url: string) => {
         };
 
         fetchData();
-    }, []);
+    }, [url]);
 
     return [data, isLoading, isError] as [T, boolean, boolean];
 };
