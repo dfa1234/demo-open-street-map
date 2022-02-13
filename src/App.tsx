@@ -16,8 +16,8 @@ const styles = {
 
 function App() {
 
-    const [drivers, isLoadingDriver, errorDrivers] = useDataApi<Driver[]>(DRIVERS_URL);
-    const [tasks, isLoadingTasks, errorTasks] = useDataApi<Task[]>(TASK_URL);
+    const [drivers] = useDataApi<Driver[]>(DRIVERS_URL);
+    const [tasks] = useDataApi<Task[]>(TASK_URL);
 
     return (
         <ThemeProvider theme={theme}>
