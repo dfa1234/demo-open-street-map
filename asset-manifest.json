@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-driver-dispatch/static/css/main.4151b803.css",
-    "main.js": "/react-driver-dispatch/static/js/main.6e79e011.js",
+    "main.js": "/react-driver-dispatch/static/js/main.54ed5695.js",
     "static/js/787.cc61c6f2.chunk.js": "/react-driver-dispatch/static/js/787.cc61c6f2.chunk.js",
     "static/media/roboto-all-400-normal.woff": "/react-driver-dispatch/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
     "static/media/roboto-latin-400-normal.woff2": "/react-driver-dispatch/static/media/roboto-latin-400-normal.4673b4537a84c7f7a130.woff2",
@@ -15,11 +15,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/react-driver-dispatch/static/media/roboto-greek-ext-400-normal.bb723e8458c9c653e505.woff2",
     "index.html": "/react-driver-dispatch/index.html",
     "main.4151b803.css.map": "/react-driver-dispatch/static/css/main.4151b803.css.map",
-    "main.6e79e011.js.map": "/react-driver-dispatch/static/js/main.6e79e011.js.map",
+    "main.54ed5695.js.map": "/react-driver-dispatch/static/js/main.54ed5695.js.map",
     "787.cc61c6f2.chunk.js.map": "/react-driver-dispatch/static/js/787.cc61c6f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4151b803.css",
-    "static/js/main.6e79e011.js"
+    "static/js/main.54ed5695.js"
   ]
 }
