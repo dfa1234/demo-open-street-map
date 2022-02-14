@@ -1,56 +1,41 @@
 import React from 'react';
-import {Box, ThemeProvider, Typography} from '@mui/material';
+import {Box, ThemeProvider, Typography, useMediaQuery} from '@mui/material';
 import {theme} from './theme';
 import {DRIVERS_URL, TASK_URL, useDataApi} from "./hooks/useDataApi";
 import {Driver} from "./models/Driver";
 import {Task} from "./models/Task";
-import {MapTile} from "./components/MapTile";
-import {DriverBox} from "./components/DriverBox";
+import {TasksListContainer} from "./components/TasksListContainer";
+import {DriversListContainer} from "./components/DriverListContainer";
+import {MapContainer} from "./components/MapContainer";
 
-const styles = {
-    defaultMargin: {mx: 1, my: 2},
-    driverTable: {mx: 1, my: 1},
-    taskTable: {backgroundColor: '#badaf8', mx: 1, my: 1},
-    mapWrapper: {backgroundColor: 'white', mx: 1, my: 1}
-};
 
 function App() {
 
     const [drivers] = useDataApi<Driver[]>(DRIVERS_URL);
     const [tasks] = useDataApi<Task[]>(TASK_URL);
 
+    const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+
     return (
         <ThemeProvider theme={theme}>
 
-            <Box height={'100vh'} width={'100vw'} display={'flex'} flexDirection={'column'}>
+            <Box>
 
-                <Typography variant="h4" component="h1" align="center" sx={styles.defaultMargin}>
+                <Typography variant="h4" component="h1" align="center" sx={{m: 1}} color="whitesmoke">
                     Welcome to Drivers App
                 </Typography>
 
                 <Box display="flex" flexDirection="column" flex="1">
 
-                    <Box display="flex" flexDirection="row">
-                        <Box sx={styles.driverTable} flexBasis="40%">
+                    <Box display="flex" flexDirection={isMobile ? "column" : "row"}>
 
-                            <Typography variant="h5" component="h2" align="center" sx={{backgroundColor: '#8ee183'}}>
-                                Drivers List
-                            </Typography>
+                        <DriversListContainer drivers={drivers}/>
 
-                            {drivers?.map((driver: Driver) => <DriverBox key={driver.id} driver={driver}/>)}
-                        </Box>
-                        <Box sx={styles.mapWrapper} flex={1} height="400px" width="400px">
-                            <MapTile drivers={drivers} tasks={tasks}/>
-                        </Box>
+                        <MapContainer drivers={drivers} tasks={tasks}/>
+
                     </Box>
 
-                    <Box sx={styles.taskTable} flex={1}>
-                        {tasks?.map((task: Task) => <Box key={task.id}>
-                            {task.title}
-                        </Box>)
-                        }
-                    </Box>
-
+                    <TasksListContainer drivers={drivers} tasks={tasks}/>
                 </Box>
 
             </Box>
