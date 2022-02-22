@@ -1,6 +1,6 @@
 {
-  "short_name": "Driver-Dispatch",
-  "name": "open-street-client",
+  "short_name": "demo-open-street-map",
+  "name": "demo-open-street-map",
   "icons": [
     {
       "src": "favicon.ico",
