@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/open-street-client/static/css/main.98da026b.css",
-    "main.js": "/open-street-client/static/js/main.7992a80c.js",
-    "static/js/787.13db1505.chunk.js": "/open-street-client/static/js/787.13db1505.chunk.js",
-    "static/media/roboto-all-400-normal.woff": "/open-street-client/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
-    "static/media/roboto-latin-400-normal.woff2": "/open-street-client/static/media/roboto-latin-400-normal.4673b4537a84c7f7a130.woff2",
-    "static/media/roboto-cyrillic-ext-400-normal.woff2": "/open-street-client/static/media/roboto-cyrillic-ext-400-normal.493afe7ae8ecfe268800.woff2",
-    "static/media/roboto-latin-ext-400-normal.woff2": "/open-street-client/static/media/roboto-latin-ext-400-normal.c3dcdbd5bb4d4af80817.woff2",
-    "static/media/roboto-cyrillic-400-normal.woff2": "/open-street-client/static/media/roboto-cyrillic-400-normal.5e493812deabd1d01e60.woff2",
-    "static/media/roboto-greek-400-normal.woff2": "/open-street-client/static/media/roboto-greek-400-normal.1cbfc636c911faa4d0ca.woff2",
-    "static/media/roboto-vietnamese-400-normal.woff2": "/open-street-client/static/media/roboto-vietnamese-400-normal.c0bec65d01f776c00c91.woff2",
-    "static/media/automobile.svg": "/open-street-client/static/media/automobile.b60e3d41b9a1789aecfe874ceb17fef7.svg",
-    "static/media/package.svg": "/open-street-client/static/media/package.b70dacb539bda30b7e1dcad061277190.svg",
-    "static/media/roboto-greek-ext-400-normal.woff2": "/open-street-client/static/media/roboto-greek-ext-400-normal.bb723e8458c9c653e505.woff2",
-    "index.html": "/open-street-client/index.html",
-    "main.98da026b.css.map": "/open-street-client/static/css/main.98da026b.css.map",
-    "main.7992a80c.js.map": "/open-street-client/static/js/main.7992a80c.js.map",
-    "787.13db1505.chunk.js.map": "/open-street-client/static/js/787.13db1505.chunk.js.map"
+    "main.css": "/demo-open-street-map/static/css/main.0b6ca4fd.css",
+    "main.js": "/demo-open-street-map/static/js/main.ac8cf08e.js",
+    "static/js/787.8ab2b673.chunk.js": "/demo-open-street-map/static/js/787.8ab2b673.chunk.js",
+    "static/media/roboto-all-400-normal.woff": "/demo-open-street-map/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
+    "static/media/roboto-latin-400-normal.woff2": "/demo-open-street-map/static/media/roboto-latin-400-normal.4673b4537a84c7f7a130.woff2",
+    "static/media/roboto-cyrillic-ext-400-normal.woff2": "/demo-open-street-map/static/media/roboto-cyrillic-ext-400-normal.493afe7ae8ecfe268800.woff2",
+    "static/media/roboto-latin-ext-400-normal.woff2": "/demo-open-street-map/static/media/roboto-latin-ext-400-normal.c3dcdbd5bb4d4af80817.woff2",
+    "static/media/roboto-cyrillic-400-normal.woff2": "/demo-open-street-map/static/media/roboto-cyrillic-400-normal.5e493812deabd1d01e60.woff2",
+    "static/media/roboto-greek-400-normal.woff2": "/demo-open-street-map/static/media/roboto-greek-400-normal.1cbfc636c911faa4d0ca.woff2",
+    "static/media/roboto-vietnamese-400-normal.woff2": "/demo-open-street-map/static/media/roboto-vietnamese-400-normal.c0bec65d01f776c00c91.woff2",
+    "static/media/automobile.svg": "/demo-open-street-map/static/media/automobile.b60e3d41b9a1789aecfe874ceb17fef7.svg",
+    "static/media/package.svg": "/demo-open-street-map/static/media/package.b70dacb539bda30b7e1dcad061277190.svg",
+    "static/media/roboto-greek-ext-400-normal.woff2": "/demo-open-street-map/static/media/roboto-greek-ext-400-normal.bb723e8458c9c653e505.woff2",
+    "index.html": "/demo-open-street-map/index.html",
+    "main.0b6ca4fd.css.map": "/demo-open-street-map/static/css/main.0b6ca4fd.css.map",
+    "main.ac8cf08e.js.map": "/demo-open-street-map/static/js/main.ac8cf08e.js.map",
+    "787.8ab2b673.chunk.js.map": "/demo-open-street-map/static/js/787.8ab2b673.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98da026b.css",
-    "static/js/main.7992a80c.js"
+    "static/css/main.0b6ca4fd.css",
+    "static/js/main.ac8cf08e.js"
   ]
 }
